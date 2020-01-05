@@ -1,0 +1,23 @@
+{
+    "name": "DoubleEntry",
+    "alias": "double-entry",
+    "description": "Double-entry accounting",
+    "version": "1.1.10",
+    "category": "accounting",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\DoubleEntry\\Providers\\EventServiceProvider",
+        "Modules\\DoubleEntry\\Providers\\MainServiceProvider",
+        "Modules\\DoubleEntry\\Providers\\ObserverServiceProvider",
+        "Modules\\DoubleEntry\\Providers\\ValidationServiceProvider",
+        "Modules\\DoubleEntry\\Providers\\ViewComposerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": [],
+    "settings": []
+}
